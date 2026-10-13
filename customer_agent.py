@@ -307,7 +307,7 @@ class CustomerAgent:
                         "error_detail": f"\n\n{str(error)}"}]
         finally:
             return output
-    def get_response(self, email: dict, retries=3):
+    def get_response(self, email: dict, retries=3)->dict:
         errors = []
         response = self.reply(email=email)
         for i in range(retries):
