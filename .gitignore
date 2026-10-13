@@ -1,0 +1,20 @@
+#secrets
+.env
+venv/
+#logs
+logs/
+*.log
+# Database files
+*.db
+*.sqlite3
+*.bin
+# Temporary files
+*.tmp
+#pycache
+*.pyc
+#KB files
+*.pdf
+*.docx
+*.html
+.chunk_index.json
+.kb_index.json
