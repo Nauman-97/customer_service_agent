@@ -20,4 +20,3 @@ for email in all_emails:
     
 with open(output_file, "w", encoding="utf-8") as file:
     json.dump(output, file, indent=4)
-print("hello")
