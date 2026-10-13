@@ -1,6 +1,6 @@
 #secrets
 .env
-venv/
+.venv/
 #logs
 logs/
 *.log
